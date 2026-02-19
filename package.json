@@ -1,0 +1,31 @@
+{
+  "name": "use-fetchly",
+  "version": "0.1.0",
+  "description": "A lightweight React data fetching hook with smart caching and revalidation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "react-hook",
+    "react-hooks",
+    "nextjs",
+    "nextjs-hook",
+    "nextjs-hooks",
+    "hook",
+    "data-fetching",
+    "fetch",
+    "fetchly",
+    "cache"
+  ],
+  "author": "Sourabh",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
