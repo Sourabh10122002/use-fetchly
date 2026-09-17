@@ -1,6 +1,6 @@
 {
   "name": "use-fetchly",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A lightweight React data fetching hook with smart caching and revalidation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,16 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sourabh10122002/use-fetchly.git"
+  },
+  "homepage": "https://github.com/Sourabh10122002/use-fetchly#readme",
+  "bugs": {
+    "url": "https://github.com/Sourabh10122002/use-fetchly/issues"
   },
   "keywords": [
     "react",

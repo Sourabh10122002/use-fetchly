@@ -2,6 +2,9 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import { FetchlyOptions, FetchlyResult } from './types';
 import { useFetchlyContext } from './FetchlyContext';
 
+export { FetchlyProvider } from './FetchlyContext';
+export type { FetchlyOptions, FetchlyResult } from './types';
+
 // Global cache storage
 const cache = new Map<string, { data: any; timestamp: number }>();
 
